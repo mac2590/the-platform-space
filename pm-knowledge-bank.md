@@ -8,7 +8,7 @@ A practical knowledge base for Platform Product Managers. Frameworks, templates,
 
 Platform PM experience across:
 - **Energy tech startup**: API platforms, revenue growth, founder-level strategy; navigated company acquisition
-- **Regulated scale-up (fintech)**: Data/AI/ML platforms at enterprise scale across 14 product teams
+- **Regulated scale-up (energy)**: Data/AI/ML platforms at enterprise scale across 8 product teams
 - **Government / public sector**: Data Science Platform in slow-moving, highly regulated environment; built adoption without authority
 - **Current**: Platform PM role; AI platform strategy; building with Claude (Agent SDK)
 
@@ -20,12 +20,11 @@ Platform PM experience across:
 |-------|---------|
 | **API Platform (startup)** | £1.1M ARR; 0 → £20k/month per account potential; customer onboarding 3 months → <1 day; 5,000+ consumers in first 4 weeks |
 | **ML Deployment Template** | Deploy time 4 weeks → 2.5 days (~90% reduction); app vs. infra split 30/70 → 80/20; OSAT 2.5 → 4.0; 80+ models in prod |
-| **Central API Platform** | Reduced £28M technical debt exposure; centralized integration infrastructure at scale |
-| **GenAI Platform** | Standardized AI tooling across 1,000+ person org; 80% customer contact deflection target; risk-tiering governance enabling rapid experimentation in regulated fintech |
+| **Central API Platform** | Reduced  technical debt exposure; centralized integration infrastructure at scale |
+| **GenAI Platform** | Standardized AI tooling across 1,000+ person org; risk-tiering governance enabling rapid experimentation in regulated fintech |
 | **API Platform (healthtech)** | £0.5M ARR; unlocked new revenue from organizations that couldn't integrate previously |
 | **Data Science Platform (public sector)** | 68% analyst adoption in resistant, slow-moving environment; influence without authority |
-| **Staff Engineer Coaching** | Engineer promoted to Staff after coaching on communication, impact framing, stakeholder management |
-| **Developer Productivity Measurement** | Rolled out measurement across engineering community by partnering with engineering leadership and Agile Coaches |
+| **Developer Productivity Measurement** | Rolled out measurement across engineering community by partnering with engineering and product leadership and  |
 
 **Total direct API revenue created**: ~£1.6M ARR across two roles
 
@@ -49,7 +48,7 @@ Platform PM experience across:
 - Tier 1 (Low): internal, low-stakes → self-service, lightweight review
 - Tier 2 (Medium): internal sensitive data or low-stakes customer-facing → automated checks + async review
 - Tier 3 (High): customer-facing, decision-influencing, PII → full review, human-in-the-loop, monitoring
-- Key principle: shift compliance left — build guardrails into platform, not the review process
+- Key principle: shift compliance + cloudops left — build guardrails into platform, not the review process
 
 ### Adoption Ladder
 - L1 Aware → L2 Experimenting → L3 Shipped → L4 Scaled
@@ -69,10 +68,10 @@ Platform PM experience across:
 - Consistency: predictable naming, error handling, response formats
 - Versioning: don't break existing integrations
 - Observability: logs, status, rate limits visible to developers
-- Self-serve: minimize support dependency to get started
+- Self-serve: minimise support dependency to get started
 
 ### Integration Strategy (2-sided platform)
-- Outbound: connecting to tools customers already use (Slack, HRIS, ERP)
+- Outbound: connecting to tools customers already use (Slack, HRIS, ERP, Payments systems)
 - Inbound: letting customers/partners build on your API
 - Moat: owning the data on both ends, not the integration itself
 
@@ -131,7 +130,7 @@ Engineers can simply and autonomously build, run and deploy software.
 4. Insufficient observability
 
 ### Strategy Goals (template)
-1. X% improvement in Engineering Speed via Developer Enablement
+1. x% improvement in Engineering Speed via Developer Enablement
 2. Standardize infrastructure, environments, tech stack, CI/CD via IaC and automation
 3. Security embedded in SDLC; minimum compliance % maintained against mandated standards
 4. Improve Observability (monitoring, logging, incident management) cost-efficiently
